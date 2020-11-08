@@ -11,7 +11,7 @@ namespace zadanie3
             if (a == 1000000)
             {
                 Console.WriteLine("Milion");
-                a = 1000000;
+                a =- 1000000;
             }
             if (a >= 900000) { a -= 900000; Console.Write("Dziewięćset tysięcy "); }
             else if (a >= 800000) { a -= 800000; Console.Write("Osiemset tysięcy "); }
